@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Orbitron:wght@400;800&family=Press+Start+2P&family=Ubuntu:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="deck-remaining">
+        <button id="getDeck">Get Deck</button>
+        <p id="remaining"></p>
+      </div>
+      <h1 id="header">War!⚔🏹</h1>
+      <h3 id="currentWinner">Round Winner</h3>
+      <div class="card-container">
+        <h4>Player Score: <span id="playerScore">0</span></h4>
+        <div id="card1" class="cards"></div>
+        <h4>Computer Score: <span id="computerScore">0</span></h4>
+        <div id="card2" class="cards"></div>
+      </div>
+      <button id="drawCards">Draw</button>
+    </div>
+  </body>
+</html>
